@@ -57,8 +57,7 @@ export default function YardTrimWebsite() {
         </section>
 
         <section style={{ marginTop: '2rem' }}>
-          import Gallery from './components/Gallery';
-
+          <Gallery />
         </section>
 
         <section style={{ marginTop: '2rem' }}>
