@@ -7,7 +7,7 @@ export default function Services() {
     {
       name: 'Lawn Mowing',
       detail: 'Includes mowing, edging, and weed eating.',
-      price: 'Included in base price',
+      price: '$100 hour',
     },
     {
       name: 'Bush Trimming',
@@ -35,12 +35,12 @@ export default function Services() {
     {
       name: 'Lot Clearing',
       detail: 'Complete clearing of overgrown or wooded lots.',
-      price: '$150 flat rate',
+      price: '$150 hour',
     },
     {
       name: 'Storm Cleanup',
       detail: 'Removal of fallen branches, leaves, and debris.',
-      price: '$150 flat rate',
+      price: '$150 hour',
     },
   ];
 
