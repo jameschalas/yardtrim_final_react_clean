@@ -6,10 +6,10 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/services" element={<Services />} />
-        <Route path="/lawn-care" element={<Services />} />
-        <Route path="/tree-removal" element={<Services />} />
-        <Route path="/yard-cleanup" element={<Services />} />
+        <Route path="/services" element={<YardTrimWebsite />} />
+        <Route path="/lawn-care" element={<YardTrimWebsite />} />
+        <Route path="/tree-removal" element={<YardTrimWebsite />} />
+        <Route path="/yard-cleanup" element={<YardTrimWebsite />} />
         {/* other routes */}
       </Routes>
     </Router>
