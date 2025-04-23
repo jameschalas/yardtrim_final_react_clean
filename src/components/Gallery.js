@@ -1,8 +1,8 @@
 import React from 'react';
-import lawn1 from './lawn1.jpg';
-import lawn2 from './lawn2.jpg';
-import stump1 from './stump1.jpg';
-import tree1 from './tree1.jpg';
+import lawn1 from '../images/lawn1.jpg';
+import lawn2 from '../images/lawn2.jpg';
+import stump1 from '../images/stump1.jpg';
+import tree1 from '../images/tree1.jpg';
 
 const Gallery = () => {
   const images = [lawn1, lawn2, stump1, tree1];
