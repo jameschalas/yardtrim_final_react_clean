@@ -1,8 +1,11 @@
 import Gallery from './components/Gallery';
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 
 export default function YardTrimWebsite() {
   return (
+
+    
     <div style={{ fontFamily: 'Arial, sans-serif', padding: '1rem' }}>
       <header
         style={{
