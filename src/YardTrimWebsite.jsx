@@ -26,6 +26,14 @@ export default function YardTrimWebsite() {
               gap: '1rem'
             }}
           >
+            import { Link } from 'react-router-dom'; // if using React Router
+
+// Inside your return block:
+<Link to="/services">
+  <button className="bg-green-600 text-white px-4 py-2 rounded-xl hover:bg-green-700">
+    View Services
+  </button>
+</Link>
             <div style={{ border: '1px solid #ccc', borderRadius: '10px', padding: '1rem' }}>
               <h3>Lawn Care</h3>
               <ul>
