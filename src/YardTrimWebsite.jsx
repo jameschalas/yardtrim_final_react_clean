@@ -65,32 +65,25 @@ export default function YardTrimWebsite() {
 
         <section style={{ marginTop: '2rem' }}>
           <h2>Get a Free Quote</h2>
-          <form
-            action="https://formsubmit.co/yardtrimservices@gmail.com"
-            method="POST"
-            style={{ display: 'grid', gap: '0.5rem', maxWidth: '400px' }}
-          >
-            <input type="text" name="name" placeholder="Your Name" required />
-            <input type="email" name="email" placeholder="Your Email" required />
-            <input type="text" name="phone" placeholder="Your Phone (optional)" />
-            <textarea name="message" placeholder="Describe your needs..." required></textarea>
+         <form
+  action="https://formsubmit.co/yardtrimservices@gmail.com"
+  method="POST"
+  style={{ display: 'grid', gap: '0.5rem', maxWidth: '400px' }}
+>
+  <input type="text" name="name" placeholder="Your Name" required />
+  <input type="email" name="email" placeholder="Your Email" required />
+  <input type="text" name="phone" placeholder="Your Phone (optional)" />
 
-            <input type="hidden" name="_captcha" value="false" />
-            <input type="hidden" name="_next" value="https://www.yard-trim.com/thank-you.html" />
+  <textarea name="message" placeholder="What service do you need?" required />
 
-            <button
-              type="submit"
-              style={{
-                background: '#166534',
-                color: 'white',
-                padding: '0.5rem',
-                border: 'none',
-                borderRadius: '5px'
-              }}
-            >
-              Submit Quote Request
-            </button>
-          </form>
+  <input type="hidden" name="_next" value="https://www.yard-trim.com/thank-you" />
+  <input type="hidden" name="_captcha" value="false" />
+  <input type="hidden" name="_subject" value="New Quote Request from YardTrim Lawncare!" />
+
+  <button type="submit" className="bg-green-600 text-white px-4 py-2 rounded-xl hover:bg-green-700">
+    Send Quote Request
+  </button>
+</form>
         </section>
 
         <section style={{ marginTop: '2rem' }}>
